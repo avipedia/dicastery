@@ -1,6 +1,10 @@
-# Proprietary font files, e.g., Font Awesome
+# Proprietary font files, e.g., Font Awesome.
 /public/fonts/*.eot
 /public/fonts/*.svg
 /public/fonts/*.ttf
 /public/fonts/*.woff
 /public/fonts/*.woff2
+
+# Database credentials.
+/app/db/credentials*
+!/app/db/credentials-example.json
